@@ -1,0 +1,15 @@
+# Copy this file to terraform.tfvars and fill in your values.
+# terraform.tfvars is git-ignored, so your email and IDs stay out of the repo.
+
+subscription_id = "00000000-0000-0000-0000-000000000000" # az account show --query id -o tsv
+owner           = "your-name"
+alert_email     = "you@example.com"
+
+# Optional overrides
+# location           = "polandcentral"   # fallback: "koreacentral"
+# model_name         = "gpt-4.1-mini"
+# model_version      = "2025-04-14"
+# model_capacity     = 10
+# monthly_budget_usd = 10
+# enable_budget      = true
+# enable_tag_policy  = true
